@@ -1,0 +1,14 @@
+name: ServerFly
+main: Aleondev\Main
+api: [3.0.0, 4.0.0]
+version: 1.0
+author: Aleondev
+
+commands:
+ fly:
+  description: §6[§eServer§eFly§6]
+  permission: server.fly
+permissions:
+ server.fly:
+  default: op
+  description: server_fly
