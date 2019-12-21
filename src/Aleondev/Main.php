@@ -34,20 +34,20 @@ class Main extends PluginBase implements Listener {
                     $this->removePlayer($sender);
                     $sender->setAllowFlight(false);
                     $sender->sendMessage("§e[Fly]§b >> §4Fly ist §cDisable");
-				$sender->addTitle("§e[ServerFly]\n§cIst Disable\n§e[ServerFly] §aBy Aleondev");
+		   $sender->addTitle("§e[ServerFly]\n§cIst Disable\n§e[ServerFly] §aBy Aleondev");
                     return true;
                 }
                 else{
                     $this->addPlayer($sender);
                     $sender->setAllowFlight(true);
                     $sender->sendMessage("§e[Fly]§b >> §4Fly Ist §aEnable");
-				$sender->addTitle("§e[ServerFly]\n§4Ist §aEnable\n§e[ServerFly] §aBy Aleondev");
+		   $sender->addTitle("§e[ServerFly]\n§4Ist §aEnable\n§e[ServerFly] §aBy Aleondev");
                     return true;
                 }
             }
             else{
                 $sender->sendMessage("§e[Fly]§b >> §4Fly Ist §cDisable");
-				$sender->addTitle("§e[ServerFly]\n§4Ist §cDisable\n§e[ServerFly] §aBy Aleondev");
+	       $sender->addTitle("§e[ServerFly]\n§4Ist §cDisable\n§e[ServerFly] §aBy Aleondev");
                 return true;
             }
         }
